@@ -67,7 +67,7 @@
         contentHeight: 0,
         focusing: false,
         isClick: false,
-        id: generateId()
+        // id: generateId() // ioo
       };
     },
 
@@ -75,6 +75,7 @@
 
     props: {
       title: String,
+      id: String, //ioo
       name: {
         type: [String, Number],
         default() {
